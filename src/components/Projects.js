@@ -19,7 +19,7 @@ export const Projects = () => {
       title: "Tic-Tac-Toe",
       description: "Two-player Game",
       imgUrl: tictactoe,
-      linkUrl:"https://nagacharankumarreddy.github.io/calculator/"
+      linkUrl:"https://nagacharankumarreddy.github.io/tictactoe/"
     },
     {
       title: "Mark-Down Editor",
