@@ -49,7 +49,7 @@ export const Banner = () => {
 
   return (
     <section className="banner" id="home">
-      <Container style={{marginTop:"-10px"}}>
+      <Container style={{marginTop:"-70px"}}>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
