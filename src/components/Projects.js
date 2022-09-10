@@ -25,7 +25,7 @@ export const Projects = () => {
       title: "Mark-Down Editor",
       description: "Text Formatting",
       imgUrl: markdown,
-      linkUrl:"https://nagacharankumarreddy.github.io/calculator/"
+      linkUrl:"https://nagacharankumarreddy.github.io/mark-down-editor/"
     },
     {
       title: "Calculator ",
