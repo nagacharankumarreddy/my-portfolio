@@ -8,6 +8,7 @@ import dice from "../assets/img/dice.png"
 import pwdstrength from "../assets/img/pwdstrengthcheck.jpg"
 import guess from "../assets/img/Guess.png"
 import strongpwd from "../assets/img/strongpwd.jpeg"
+import techtips from "../assets/img/techtips.jpg"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -15,6 +16,18 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Calculator ",
+      description: "Tool for Quick calculation",
+      imgUrl: calculator,
+      linkUrl:"https://nagacharankumarreddy.github.io/calculator/"
+    },
+    {
+      title: "Tech Tips",
+      description: "Make your TechLife Easy",
+      imgUrl: techtips,
+      linkUrl:"https://nagacharankumarreddy.github.io/tech-tips/"
+    },
     {
       title: "Tic-Tac-Toe",
       description: "Two-player Game",
@@ -26,12 +39,6 @@ export const Projects = () => {
       description: "Text Formatting",
       imgUrl: markdown,
       linkUrl:"https://nagacharankumarreddy.github.io/mark-down-editor/"
-    },
-    {
-      title: "Calculator ",
-      description: "Tool for Quick calculation",
-      imgUrl: calculator,
-      linkUrl:"https://nagacharankumarreddy.github.io/calculator/"
     },
     {
       title: "Guess the Number ",
