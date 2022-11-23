@@ -5,10 +5,11 @@ import markdown from "../assets/img/markdown.png";
 import calculator from "../assets/img/calculator.png"
 import interest from "../assets/img/interest.png"
 import dice from "../assets/img/dice.png"
-import pwdstrength from "../assets/img/pwdstrengthcheck.jpg"
+import pwdstrength from "../assets/img/pwdstrengthcheck.png"
 import guess from "../assets/img/Guess.png"
 import strongpwd from "../assets/img/strongpwd.jpeg"
 import techtips from "../assets/img/techtips.jpg"
+import onlycss from "../assets/img/onlycss.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -33,6 +34,12 @@ export const Projects = () => {
       description: "Two-player Game",
       imgUrl: tictactoe,
       linkUrl:"https://nagacharankumarreddy.github.io/tictactoe/"
+    },
+    {
+      title: "Responsive Website ",
+      description: "Only using CSS",
+      imgUrl: onlycss,
+      linkUrl:"https://nagacharankumarreddy.github.io/Only-CSS/"
     },
     {
       title: "Mark-Down Editor",
@@ -70,6 +77,7 @@ export const Projects = () => {
       imgUrl: strongpwd,
       linkUrl:"https://nagacharankumarreddy.github.io/generate-strong-password/"
     },
+    
     
 
 

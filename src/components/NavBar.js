@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon1 from '../assets/img/linkedin.svg';
+import navIcon2 from '../assets/img/gmail.svg';
+import navIcon3 from '../assets/img/phone.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -46,13 +46,11 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/naga-charan-kumar-reddy-11378616a/"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/naga-charan-kumar-reddy-11378616a/"><img src={navIcon1} alt="linkedin" /></a>
+                <a href="mailto:nagacharankumarreddy@gmail.com"><img src={navIcon2} alt="mail" /></a>
+                <a href="tel:8309340949"><img src={navIcon3} alt="call" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Contact</span></button>
-              </HashLink>
+              <button className="vvd"><span>Contact</span></button>
             </span>
           </Navbar.Collapse>
         </Container>

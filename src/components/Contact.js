@@ -30,7 +30,9 @@ export const Contact = () => {
                       <input type="email" value={"Email: nagacharankumarreddy@gmail.com"} placeholder="" disabled/>
                     </Row>
                     <Row size={12} sm={6} className="px-1">
-                      <input type="tel" value={"Phone No: +91-8309340949"} placeholder="" disabled/>
+                      <input type="tel" value={"Phone No: +91-8309340949"} placeholder="" disabled>
+                      {/* <a href="tel:5551234567"></a> */}
+                        </input>
                     </Row>
                     <Row size={10} className="px-1">
                       <textarea rows="3" value={`If You are interested in my Profile.Please Feel free to contact me. See You Soon...` }  data-emojiable="true" disabled >hj</textarea>
