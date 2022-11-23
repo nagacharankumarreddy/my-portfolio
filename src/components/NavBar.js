@@ -50,7 +50,9 @@ export const NavBar = () => {
                 <a href="mailto:nagacharankumarreddy@gmail.com"><img src={navIcon2} alt="mail" /></a>
                 <a href="tel:8309340949"><img src={navIcon3} alt="call" /></a>
               </div>
-              <button className="vvd"><span>Contact</span></button>
+              <HashLink to='#contact'>
+              <button><span>Contact</span></button>
+              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>
