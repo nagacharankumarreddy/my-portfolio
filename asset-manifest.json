@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.38e6ecd6.css",
-    "main.js": "/my-portfolio/static/js/main.a32f582d.js",
+    "main.js": "/my-portfolio/static/js/main.6859f146.js",
     "static/js/787.490b46c9.chunk.js": "/my-portfolio/static/js/787.490b46c9.chunk.js",
+    "static/media/bwcharan.png": "/my-portfolio/static/media/bwcharan.9725e0f8892f70158fdc.png",
     "static/media/color-sharp.png": "/my-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/my-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/Guess.png": "/my-portfolio/static/media/Guess.d950f001128ee40f1698.png",
@@ -12,7 +13,6 @@
     "static/media/banner-bg.png": "/my-portfolio/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/calculator.png": "/my-portfolio/static/media/calculator.661196fb192074b65c13.png",
     "static/media/markdown.png": "/my-portfolio/static/media/markdown.d07ef75c3749d5d03342.png",
-    "static/media/header-img.svg": "/my-portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/dice.png": "/my-portfolio/static/media/dice.2fc2da6394a7c98a31a9.png",
     "static/media/interest.png": "/my-portfolio/static/media/interest.971e1f4aa7cfb3ead101.png",
     "static/media/CentraNo2-Bold.ttf": "/my-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -33,11 +33,11 @@
     "index.html": "/my-portfolio/index.html",
     "static/media/gmail.svg": "/my-portfolio/static/media/gmail.e31b92012aea8916745d9ffeaeb3c094.svg",
     "main.38e6ecd6.css.map": "/my-portfolio/static/css/main.38e6ecd6.css.map",
-    "main.a32f582d.js.map": "/my-portfolio/static/js/main.a32f582d.js.map",
+    "main.6859f146.js.map": "/my-portfolio/static/js/main.6859f146.js.map",
     "787.490b46c9.chunk.js.map": "/my-portfolio/static/js/787.490b46c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38e6ecd6.css",
-    "static/js/main.a32f582d.js"
+    "static/js/main.6859f146.js"
   ]
 }
