@@ -77,9 +77,6 @@ export const Projects = () => {
       imgUrl: strongpwd,
       linkUrl:"https://nagacharankumarreddy.github.io/generate-strong-password/"
     },
-    
-    
-
 
   ];
 

@@ -4,7 +4,8 @@ import "./projectcard.css"
 export const ProjectCard = ({ title, description, imgUrl,linkUrl }) => {
   return (
     
-    <Col size={12} sm={6} md={4}>
+    <Col size={12} sm={6} md={4} data-aos="fade-up" 
+    data-aos-duration="1500" >
       
       <a href={linkUrl} target="_blank">
       <div className="proj-imgbx">
