@@ -10,10 +10,10 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Web Developer"];
   const period = 2000;
 
   useEffect(() => {
+    const toRotate = ["Web Developer"];
     const tick = () => {
       let i = loopNum % toRotate.length;
       let fullText = toRotate[i];
@@ -37,17 +37,17 @@ export const Banner = () => {
       }
     };
 
-    const ticker = setInterval(tick, delta);
+    let ticker = setInterval(tick, delta);
 
     return () => {
       clearInterval(ticker);
     };
-  }, [loopNum, isDeleting, text, delta]); // Include all dependencies
+  }, [loopNum, isDeleting, text, delta]);
 
   return (
     <section className="banner" id="home">
       <Container style={{ marginTop: "-70px" }}>
-        <Row className="align-items-center">
+        <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
