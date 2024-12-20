@@ -13,7 +13,7 @@ export const Banner = () => {
   const period = 2000;
 
   useEffect(() => {
-    const toRotate = ["Web Developer & SQL Developer"];
+    const toRotate = ["Web & SQL Developer"];
     const tick = () => {
       let i = loopNum % toRotate.length;
       let fullText = toRotate[i];
