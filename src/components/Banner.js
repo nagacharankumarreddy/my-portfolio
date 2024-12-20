@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/charanbw.png";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
+import { useEffect, useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
+import headerImg from "../assets/img/charanbw.png";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -13,7 +13,7 @@ export const Banner = () => {
   const period = 2000;
 
   useEffect(() => {
-    const toRotate = ["Web Developer"];
+    const toRotate = ["Web Developer & SQL Developer"];
     const tick = () => {
       let i = loopNum % toRotate.length;
       let fullText = toRotate[i];
@@ -61,7 +61,7 @@ export const Banner = () => {
                   <h1
                     className="txt-rotate"
                     dataPeriod="1000"
-                    data-rotate='[ "Web Developer"]'
+                    data-rotate='[ "Web Developer & SQL Developer"]'
                   >
                     <span className="wrap">{text}</span>
                   </h1>
