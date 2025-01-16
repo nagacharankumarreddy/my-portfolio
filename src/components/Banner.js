@@ -1,7 +1,6 @@
 import "animate.css";
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 import headerImg from "../assets/img/charanbw.png";
 
@@ -13,7 +12,7 @@ export const Banner = () => {
   const period = 2000;
 
   useEffect(() => {
-    const toRotate = ["Web & SQL Developer"];
+    const toRotate = ["Full Stack Developer"];
     const tick = () => {
       let i = loopNum % toRotate.length;
       let fullText = toRotate[i];
@@ -61,21 +60,19 @@ export const Banner = () => {
                   <h1
                     className="txt-rotate"
                     dataPeriod="1000"
-                    data-rotate='[ "Web Developer& SQL Developer"]'
+                    data-rotate='[ "Full Stack Developer"]'
                   >
                     <span className="wrap">{text}</span>
                   </h1>
                   <p>
-                    I'm a very ambitious front-end developer looking for a role
-                    in an established IT company with the opportunity to work
-                    with the latest technologies on challenging and diverse
-                    projects. I'm quite confident, naturally curious, and
-                    perpetually working on improving my skills one design
-                    problem at a time.
+                    I'm a passionate full-stack developer driven by curiosity
+                    and a relentless desire for growth. I thrive in dynamic
+                    environments where I can tackle complex challenges,
+                    contribute to innovative projects, and stay at the forefront
+                    of modern technologies. With a strong design mindset and
+                    attention to detail, I continuously refine my skills to
+                    deliver impactful, user-focused solutions.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
                 </div>
               )}
             </TrackVisibility>
