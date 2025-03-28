@@ -23,12 +23,6 @@ jobs:
           echo "REACT_APP_EMAILJS_TEMPLATE_ID=${{ secrets.EMAILJS_TEMPLATE_ID }}" >> .env
           echo "REACT_APP_EMAILJS_PUBLIC_KEY=${{ secrets.EMAILJS_PUBLIC_KEY }}" >> .env
 
-      - name: Debug Secrets (Safe Logging)
-        run: |
-          echo "EMAILJS_SERVICE_ID is set? $( [ -z "${{ secrets.EMAILJS_SERVICE_ID }}" ] && echo 'NO' || echo 'YES' )"
-          echo "EMAILJS_TEMPLATE_ID is set? $( [ -z "${{ secrets.EMAILJS_TEMPLATE_ID }}" ] && echo 'NO' || echo 'YES' )"
-          echo "EMAILJS_PUBLIC_KEY is set? $( [ -z "${{ secrets.EMAILJS_PUBLIC_KEY }}" ] && echo 'NO' || echo 'YES' )"
-
       - name: Install dependencies
         run: npm install
 
