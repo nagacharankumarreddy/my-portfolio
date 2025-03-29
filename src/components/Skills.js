@@ -10,6 +10,7 @@ import {
   SiDocker,
   SiElasticsearch,
   SiFirebase,
+  SiGithubactions,
   SiKubernetes,
   SiMongodb,
   SiRedux,
@@ -63,6 +64,10 @@ export const Skills = () => {
         {
           icon: <SiKubernetes size={50} color="#326CE5" />,
           name: "Kubernetes",
+        },
+        {
+          icon: <SiGithubactions size={50} color="#2088FF" />,
+          name: "GitHub Actions",
         },
       ],
     },
