@@ -1,23 +1,30 @@
-import { Container, Row, Col, Tab } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
-import tictactoe from "../assets/img/tictactoe.png";
-import markdown from "../assets/img/markdown.png";
+import "animate.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import { Col, Container, Row, Tab } from "react-bootstrap";
+import TrackVisibility from "react-on-screen";
 import calculator from "../assets/img/calculator.png";
-import interest from "../assets/img/interest.png";
+import colorSharp2 from "../assets/img/color-sharp2.png";
 import dice from "../assets/img/dice.png";
+import guess from "../assets/img/Guess.png";
+import interest from "../assets/img/interest.png";
+import markdown from "../assets/img/markdown.png";
+import moviehub from "../assets/img/moviehub.png";
+import movieupdatenotifier from "../assets/img/movieupdatenotifier.png";
+import onlycss from "../assets/img/onlycss.png";
 import pwdstrength from "../assets/img/pwdstrengthcheck.png";
 import quickbite from "../assets/img/quickbite.png";
-import movieupdatenotifier from "../assets/img/movieupdatenotifier.png";
-import moviehub from "../assets/img/moviehub.png";
-import guess from "../assets/img/Guess.png";
 import strongpwd from "../assets/img/strongpwd.png";
 import techtips from "../assets/img/techtips.jpg";
-import onlycss from "../assets/img/onlycss.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import "animate.css";
-import TrackVisibility from "react-on-screen";
+import tictactoe from "../assets/img/tictactoe.png";
+import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   const projects = [
     {
       title: "Quick Bite 🍽️",
@@ -32,7 +39,7 @@ export const Projects = () => {
       linkUrl: "https://nagacharankumarreddy.github.io/movie-hub/",
     },
     {
-      title: "Movie Update Notifier🎬",
+      title: "Movie Update Notifier 🎬",
       description: "BackEnd Service, UI not available",
       imgUrl: movieupdatenotifier,
       linkUrl: "https://movie-update-notifier.onrender.com/movies/",
@@ -123,9 +130,9 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
+                          {projects.map((project, index) => (
+                            <ProjectCard key={index} {...project} />
+                          ))}
                         </Row>
                       </Tab.Pane>
                     </Tab.Content>
@@ -139,8 +146,8 @@ export const Projects = () => {
       <img
         className="background-image-right"
         src={colorSharp2}
-        alt={"background"}
-      ></img>
+        alt="background"
+      />
     </section>
   );
 };
